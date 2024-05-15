@@ -1,8 +1,10 @@
-let firstNumb = 10;
-let secondNumb = 20;
-let thirdNumb = 30;
-if (firstNumb == secondNumb == thirdNumb) {
-    alert('goodluck!')
+
+let placeOfResidence = prompt('Какой город', 'Киев');
+let DateOfBirth = prompt('Какой год рождения', '1992');
+let hobbies = prompt('твой любимый вид спорта?', 'футбол');
+
+if (DateOfBirth !== null && placeOfResidence !== null && hobbies !== null) {
+    alert(`${DateOfBirth},${placeOfResidence},${hobbies}`);
 } else {
-    alert('badluck')
+    console.log('нет данных');
 }
